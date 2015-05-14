@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  min-width: 1100px;
+}
+
+header {
+  height: 80px;
+  background: #282828;
+}
+
+.header {
+  max-width: 1100px;
+  margin: auto;
+  height: 80px;
+  background: #282828;
+}
+
+main {
+  max-width: 1100px;
+  margin: auto;
+  border-left: 2px solid #e6e6e6;
+  border-right: 2px solid #e6e6e6;
+  padding:15px;
+  background: #f7f7f7;
+}
+
+.logo {
+  margin: 30px 10px 0 10px;
+  color: #3d3d3d;
+  font-family: 'Oswald', Impact, sans-serif;
+  font-weight: normal;
+  font-size: 32px;
+  width: 170px;
+  float: left;
+}
+
+.footer-left ul {
+  margin-top: 37px;
+  width: 350px;
+  float: left;
+  padding-left: 0;
+}
+
+.footer-left li {
+  display: inline-block;
+  padding-right: 20px;
+
+}
+
+.footer-left a {
+  text-decoration: none;
+  color: white;
+  font-family:  'Oswald', Impact, sans-serif;
+  font-weight: lighter;
+  
+}
+
+.footer-left .selected {
+  border-bottom: 19px solid #1ac7c3;
+}
+
+.footer-left .unselected:hover {
+    border-bottom: 19px solid #1ac7c3;
+}
+
+.footer-right ul {
+  margin-top: 37px;
+  width: 250px;
+  float: right;
+  padding-left: 0;
+}
+
+.footer-right li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.footer-right a {
+  text-decoration: none;
+  color: white;
+  font-family: Times, Arial, sans-serif;
+  font-style: italic;
+  font-size: 13px;
+}
+
+.footer-right .selected {
+  color: #1ac7c3;
+}
