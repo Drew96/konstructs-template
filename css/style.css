@@ -1,77 +1,78 @@
+@font-face {
+  font-family: 'Tungsten Medium';
+  src: url('../fonts/Tungsten-Medium.ttf') format('truetype');
+}
+
 body {
   margin: 0;
-  min-width: 1100px;
+  min-width: 1180px;
 }
 
 header {
-  height: 80px;
+  height: 117px;
   background: #282828;
 }
 
 .header {
-  max-width: 1100px;
+  max-width: 1180px;
   margin: auto;
-  height: 80px;
+  height: 117px;
   background: #282828;
 }
 
 .wrapper {
-  max-width: 1100px;
+  max-width: 1180px;
   margin: auto;
-
   padding:0;
   background: #f7f7f7;
 }
 
 .logo {
-  margin: 30px 10px 0 10px;
+  font-family: 'Tungsten Medium', Impact, sans-serif;
   color: #3d3d3d;
-  font-family: 'Oswald', Impact, sans-serif;
-  font-weight: normal;
-  font-size: 32px;
-  width: 170px;
+  line-height: 43px;
+  font-size: 60px;
   float: left;
+  margin-top: 50px;
+  margin-right: 12px;
 }
 
 .footer-left ul {
-  margin-top: 37px;
-  width: 350px;
+  margin-top: 42px;
+  width: auto;
   float: left;
   padding-left: 0;
 }
 
 .footer-left li {
   display: inline-block;
-  padding-right: 20px;
-
+  padding-right: 45px;
 }
 
 .footer-left a {
   text-decoration: none;
   color: white;
-  font-family:  'Oswald', Impact, sans-serif;
-  font-weight: lighter;
-  
+  font-family:  'Tungsten Medium', Impact, sans-serif;
+  font-size: 34px;
+  line-height: 43px;
+  padding-bottom: 2px;
 }
 
-.footer-left .selected {
-  border-bottom: 19px solid #1ac7c3;
+.footer-left .selected, .footer-left .unselected:hover {
+  border-bottom: 31px solid #1ac7c3;
 }
 
-.footer-left .unselected:hover {
-    border-bottom: 19px solid #1ac7c3;
-}
 
 .footer-right ul {
-  margin-top: 37px;
-  width: 250px;
+  margin-top: 50px;
+  width: auto;
   float: right;
   padding-left: 0;
 }
 
 .footer-right li {
   display: inline-block;
-  padding-right: 10px;
+  padding-left: 30px;
 }
 
 .footer-right a {
@@ -79,7 +80,7 @@ header {
   color: white;
   font-family: Times, Arial, sans-serif;
   font-style: italic;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .footer-right .selected {
@@ -88,11 +89,13 @@ header {
 
 .left-column {
   float: left;
-  width: 730px;
+  width: 720px;
+  border-right: 1px solid #e6e6e6;
+
 }
 
 .right-column {
-  margin-left: 730px;
+  margin-left: 720px;
 }
 
 footer {
@@ -100,25 +103,200 @@ footer {
 }
 
 .bottom-news, .top-news {
-  border-left: 2px solid #e6e6e6;
-  border-right: 2px solid #e6e6e6;
+  overflow: auto;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
 }
 
 .featured-image {
-    width: 1100px;
-    height: 450px;
-    background-image: url("../f.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
 
-background: -moz-linear-gradient(-45deg, rgba(161,107,159,0.70) 0%, rgba(90,149,113,0.70) 50%, rgba(246,168,94,0.70) 100%), url("../f.jpg") no-repeat; /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(161,107,159,0.70)), color-stop(50%,rgba(90,149,113,0.70)), color-stop(100%,rgba(246,168,94,0.70))), url("../f.jpg") no-repeat; /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(-45deg, rgba(161,107,159,0.70) 0%,rgba(90,149,113,0.70) 50%,rgba(246,168,94,0.70) 100%), url("../f.jpg") no-repeat; /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(-45deg, rgba(161,107,159,0.70) 0%,rgba(90,149,113,0.70) 50%,rgba(246,168,94,0.70) 100%), url("../f.jpg") no-repeat; /* Opera 11.10+ */
-background: -ms-linear-gradient(-45deg, rgba(161,107,159,0.70) 0%,rgba(90,149,113,0.70) 50%,rgba(246,168,94,0.70) 100%), url("../f.jpg") no-repeat; /* IE10+ */
-background: linear-gradient(135deg, rgba(161,107,159,0.80) 0%, rgba(90, 149, 113,0.80) 50%, rgba(246, 168, 94,0.80) 100%), url("../f.jpg") no-repeat;/* W3C */
+  width: 1180px;
+  height: 615px;
+  background-image: url("../img/featured.jpg");
+  background: -moz-linear-gradient(-45deg, rgba(161,107,159,0.70) 0%, rgba(90,149,113,0.70) 50%, rgba(246,168,94,0.70) 100%), url("../img/featured.jpg") no-repeat; /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(161,107,159,0.70)), color-stop(50%,rgba(90,149,113,0.70)), color-stop(100%,rgba(246,168,94,0.70))), url("../img/featured.jpg") no-repeat; /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, rgba(161,107,159,0.70) 0%,rgba(90,149,113,0.70) 50%,rgba(246,168,94,0.70) 100%), url("../img/featured.jpg") no-repeat; /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, rgba(161,107,159,0.70) 0%,rgba(90,149,113,0.70) 50%,rgba(246,168,94,0.70) 100%), url("../img/featured.jpg") no-repeat; /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, rgba(161,107,159,0.70) 0%,rgba(90,149,113,0.70) 50%,rgba(246,168,94,0.70) 100%), url("../img/featured.jpg") no-repeat; /* IE10+ */
+  background: linear-gradient(135deg, rgba(161,107,159,0.80) 0%, rgba(90, 149, 113,0.80) 50%, rgba(246, 168, 94,0.80) 100%), url("../img/featured.jpg") no-repeat;/* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a16b9f', endColorstr='#f6a85e',GradientType=1 ), url("../img/featured.jpg") no-repeat; /* IE6-9 fallback on horizontal gradient */ 
+  transition: .7s;
+}
 
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a16b9f', endColorstr='#f6a85e',GradientType=1 ), url("../f.jpg") no-repeat; /* IE6-9 fallback on horizontal gradient */
+.featured-image:hover {
+  opacity: 0.9;
+}
 
+.article-types ul {
+  padding: 21.5px 29px ;
+  margin: 0px;
+}
+
+.article-types li { 
+  display: inline-block;
+  font-family: Georgia, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  border-left: 1px solid #e6e6e6;
+}
+
+.article-types {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.article-types li:nth-child(1), .article-types li:nth-child(2) {
+  border-left: none;
+}
+
+.article-types a {
+  text-decoration: none;
+  color: #798184;
+  font-size: 14px;
+  padding: 0 17px 0 22px;
+}
+
+
+
+
+/*------------------------------------------------------------*/
+.part-title-blue {
+  background: #1ac7c3;
+  color: white;
+  font-family: 'Tungsten Medium', Impact, sans-serif;
+  display: inline-block;
+  line-height: 30px;
+  font-size: 24px;
+  padding: 2.5px 14.4px;
+}
+
+.part-title-black {
+  background: black;
+  color: white;
+  font-family: 'Oswald', Impact, sans-serif;
+  display: inline-block;
+  padding: 5px 9px;
+  font-weight: lighter;
+}
+
+.featured-content {
+  padding: 50px;
+}
+
+.featured-content a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Oswald', Impact, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.recent-news-tile-theme {
+  color: #1ac7c3;
+  font-family: 'Tungsten Medium', Impact, sans-serif;
+  font-size: 22px;
+  padding: 45px 0 24px 39px;
+}
+
+h2 {
+  padding-left: 39px;
+  padding-bottom: 34px;
+  margin: 0;
+}
+
+h2 a{
+  text-decoration: none;
+  color: #282828;
+  font-family: 'Tungsten Medium', Impact, sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: lighter;
+
+}
+
+.recent-news-tile {
+
+
+  padding-right: 20px;
+}
+
+.recent-news-tile p {
+  padding-left: 39px;
+  font-family: Times, sans-serif;
+  font-style: italic;
+  line-height: 24px;
+  font-size: 16px;
+  color: #798184;
+  width: 620px;
+}
+
+.popular-news-tile {
+  text-align: center;
+  line-height: 20px;
+  padding: 0 10px 10px 10px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+
+
+.popular-news-tile h3 {
+    margin: 10px 0;
+}
+
+.popular-news-tile h3 a{
+  font-family: 'Oswald', Impact, sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-weight: lighter;
+}
+
+.popular-news-tile p {
+  font-family: Times, sans-serif;
+  color: #798184;
+  margin: 10px 0;
+}
+
+.popular-news-tile time {
+  font-family: Times, sans-serif;
+  color: #cbcbcb;
+  font-style: italic;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e6e6e6;
+}
+
+
+
+.editors-tile h4 a {
+  font-family: 'Oswald', Impact, sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  font-weight: lighter;
+}
+
+.editors-tile time {
+  font-family: Times, sans-serif;
+  color: #cbcbcb;
+  font-style: italic;
+  padding-top: 5px;
+  font-size: 12px;
+  border-top: 1px solid #e6e6e6;
+  padding-right: 30px;
+}
+
+.editors-tile img {
+  float: left;
+}
+
+.editors-content {
+  margin-left: 175px;
+}
+
+.editors-tile {
+  overflow: auto;
+}
+
+.popular-group {
+  margin-bottom: 35px;
 }
