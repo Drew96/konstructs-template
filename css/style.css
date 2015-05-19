@@ -195,12 +195,12 @@ footer {
   color: #1ac7c3;
   font-family: 'Tungsten Medium', Impact, sans-serif;
   font-size: 22px;
-  padding: 45px 0 24px 39px;
+  padding: 45px 0 22px 39px;
 }
 
 h2 {
   padding-left: 39px;
-  padding-bottom: 34px;
+  padding-bottom: 32px;
   margin: 0;
 }
 
@@ -233,9 +233,12 @@ h2 a{
 .popular-news-tile {
   text-align: center;
   line-height: 20px;
-  padding: 0 10px 10px 10px;
+  padding: 45px 40px 11px 30px;
   border-bottom: 1px solid #e6e6e6;
+
 }
+
+
 
 
 
@@ -244,9 +247,9 @@ h2 a{
 }
 
 .popular-news-tile h3 a{
-  font-family: 'Oswald', Impact, sans-serif;
+  font-family: 'Tungsten Medium', Impact, sans-serif;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 34px;
   color: black;
   font-weight: lighter;
 }
@@ -254,7 +257,9 @@ h2 a{
 .popular-news-tile p {
   font-family: Times, sans-serif;
   color: #798184;
-  margin: 10px 0;
+  margin: 13px 0;
+  line-height: 30px;
+  font-size:  18px;
 }
 
 .popular-news-tile time {
@@ -263,6 +268,7 @@ h2 a{
   font-style: italic;
   padding-bottom: 10px;
   border-bottom: 2px solid #e6e6e6;
+  font-size: 18px;
 }
 
 
@@ -298,5 +304,5 @@ h2 a{
 }
 
 .popular-group {
-  margin-bottom: 35px;
+  margin-bottom: 20px;
 }
