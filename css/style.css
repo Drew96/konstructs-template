@@ -23,7 +23,7 @@ header {
 .wrapper {
   max-width: 1180px;
   margin: auto;
-  padding:0;
+  padding:0 0 125px 0;
   background: #f7f7f7;
 }
 
@@ -100,6 +100,7 @@ header {
 
 footer {
   background: #282828;
+  height: 500px;
 }
 
 .bottom-news, .top-news {
@@ -309,4 +310,33 @@ h2 a{
 
 .popular-group {
   margin-bottom: 20px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding-top:80px;
+}
+
+footer li:first-child {
+  font-weight: bold;
+  color: #737c85;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 35px;
+}
+
+footer a, .designers li {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 35px;
+  color: #737c85;
+  text-decoration: none;
+}
+
+.other-pages, .relevant-articles, .designers  {
+  float: left;
+}
+
+.relevant-articles, .designers {
+  margin-left: 240px;
 }
