@@ -274,9 +274,10 @@ h2 a{
 
 
 .editors-tile h4 a {
-  font-family: 'Oswald', Impact, sans-serif;
+  font-family: 'Tungsten Medium', Impact, sans-serif;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 24px;
+  line-height: 30px;
   color: black;
   font-weight: lighter;
 }
@@ -285,10 +286,12 @@ h2 a{
   font-family: Times, sans-serif;
   color: #cbcbcb;
   font-style: italic;
-  padding-top: 5px;
-  font-size: 12px;
-  border-top: 1px solid #e6e6e6;
-  padding-right: 30px;
+  padding-top: 10px;
+  font-size: 14px;
+  border-top: 2px solid #e6e6e6;
+  width: 100px;
+  display: inline-block;
+
 }
 
 .editors-tile img {
@@ -296,7 +299,8 @@ h2 a{
 }
 
 .editors-content {
-  margin-left: 175px;
+  margin-left: 180px;
+  margin-right: 40px;
 }
 
 .editors-tile {
